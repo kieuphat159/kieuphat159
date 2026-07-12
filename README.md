@@ -67,36 +67,57 @@ const kieuphat = {
 
 ## 🚀 Featured Projects
 
+### 📝 InkSphere — Full-Stack Blog & Social Platform
+> *A modern social blogging platform with real-time communication.*
+
+A full-stack social blogging platform built with a **Turborepo** architecture, featuring blogging, messaging, and video calling.
+
+- 🚀 Built with **Next.js 16**, **NestJS 11**, **Apollo GraphQL**, **Prisma**, and **PostgreSQL**
+- 👥 Implemented posts, comments, likes, tags, friend connections, JWT authentication, and Google OAuth 2.0
+- 💬 Developed a real-time **Socket.IO** chat system with direct/group messaging, read receipts, cursor pagination, token-bucket rate limiting, and a concurrency-controlled message queue
+- 📹 Integrated **WebRTC** video calling using a Socket.IO signaling server with Metered TURN for NAT traversal
+
+`Next.js` `NestJS` `GraphQL` `Socket.IO` `WebRTC` `Prisma` `PostgreSQL` `JWT`
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-FF6B6B?style=flat-square&logo=vercel&logoColor=white)](https://inksphere.me)
+[![Demo Video](https://img.shields.io/badge/Demo_Video-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1XBD3UXOtOmT3rGAPIORI-fSw5qjt62DG/view?usp=drive_link)
+[![GitHub](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kieuphat159/inksphere)
+
+---
+
 ### ⛓️ EventFund — Web3 Ticket Platform
-> *Crowdfunding meets NFT ticketing on the blockchain*
+> *Crowdfunding meets NFT ticketing on the blockchain.*
 
-A hybrid Web3 platform for event crowdfunding and NFT-based ticketing, deployed on the **Sepolia testnet**.
+A full-stack Web3 crowdfunding and NFT-ticketing platform deployed on the **Sepolia testnet**.
 
-- 🔗 Automated on-chain revenue & refund distribution via **Solidity** smart contracts
-- ⚡ Built a **Blockchain Indexing Pipeline** to sync on-chain logs into MongoDB for high-performance queries
-- 💳 Integrated **VNPay** with a backend relayer for VND-to-ETH deposits — lowering the barrier for non-crypto users
-- 🎟️ QR Check-in system for verifying **NFT ownership** both off-chain and on-chain
+- 🔗 Built smart contracts for automated on-chain revenue distribution and refunds
+- ⚡ Engineered a blockchain indexing pipeline syncing event logs into MongoDB
+- 🛡️ Used **transaction hashes as idempotency keys** to prevent duplicate processing of blockchain events
+- 💳 Integrated **VNPay** for VND-to-ETH deposits
+- 🎟️ Implemented QR check-in with on-chain/off-chain NFT ownership verification
 
-`Node.js` `Express` `React` `Vite` `Solidity` `Hardhat` `MongoDB` `Web3Auth` `Ethers.js`
+`Node.js` `Express` `React` `Vite` `Solidity` `Hardhat` `MongoDB` `Ethers.js` `Web3Auth`
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-FF6B6B?style=flat-square&logo=vercel&logoColor=white)](https://www.youtube.com/watch?v=MsqeAFjFVw8)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-FF6B6B?style=flat-square&logo=netlify&logoColor=white)](https://eventfund-ticket-platform.netlify.app/)
+[![Demo Video](https://img.shields.io/badge/Demo_Video-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://drive.google.com/drive/folders/13fYZnLX87_1lUZBMXUU18J1VuU9L4ftF)
 [![GitHub](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kieuphat159/Eventfund-platform)
 
 ---
 
-### ✈️ Travel Blog Frontend
-> *Zero dependencies. Maximum performance.*
+### 🤖 Helpdesk RAG Sync
+> *Automated knowledge synchronization for AI customer support.*
 
-A travel blog frontend engineered entirely with **pure HTML5, CSS3, and Vanilla JavaScript** — no frameworks, no libraries.
+A production-style RAG pipeline that keeps an OpenAI Vector Store synchronized with Zendesk documentation.
 
-- 🖼️ Custom **Lazy Load** mechanism built from scratch for optimal image performance
-- 🌏 **Multi-language system** implemented without any i18n library
-- 🎨 Complex UI animations with high-performance rendering across all devices
+- 📚 Scraped Zendesk Help Center articles and converted HTML into clean Markdown
+- 🧠 Synced documentation into an **OpenAI Vector Store** for AI-powered customer support
+- 🔄 Implemented delta synchronization using **SHA-256 content hashes**, uploading only changed articles while removing obsolete ones
+- ☁️ Containerized with Docker and deployed as a scheduled **Google Cloud Run Job** with automatic retry and rate-limit handling
 
-`HTML5` `CSS3` `Vanilla JavaScript`
+`Python` `OpenAI Vector Store` `Zendesk API` `Docker` `Google Cloud Run` `Cloud Scheduler`
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-FF6B6B?style=flat-square&logo=vercel&logoColor=white)](https://drive.google.com/file/d/1ugUiwWkDk6ROyErU97rbzx0azGtZ3psR/view)
-[![GitHub](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kieuphat159/kieuphat159.github.io)
+[![Demo Video](https://img.shields.io/badge/Demo_Video-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1U_OomgwKQeo7kpu7eirXAtXJlaYob8W5/view?usp=sharing)
+[![GitHub](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kieuphat159/helpdesk-rag-sync)
 
 ---
 
