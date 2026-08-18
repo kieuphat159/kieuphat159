@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Animated SVG header banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=180&section=header&text=Kieu%20Nguyen%20Thanh%20Phat&fontSize=38&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=Web%20Developer%20%E2%80%A2%20Web3%20%E2%80%A2%20Competitive%20Programmer&descAlignY=58&descSize=15" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=180&section=header&text=Kieu%20Nguyen%20Thanh%20Phat&fontSize=38&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=Fullstack%20AI%20Engineer%20%E2%80%A2%20Web3%20%E2%80%A2%20Competitive%20Programmer&descAlignY=58&descSize=15" width="100%"/>
 
 <!-- Typing animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=800&color=00FF96&center=true&vCenter=true&multiline=false&width=600&lines=Building+full-stack+systems+%F0%9F%9A%80;Crafting+Web3+experiences+%E2%9B%93;Solving+problems+with+C%2B%2B+%F0%9F%A7%A9;Always+learning%2C+always+shipping+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=800&color=00FF96&center=true&vCenter=true&multiline=false&width=600&lines=Building+full-stack+AI+systems;Crafting+Web3+experiences;Solving+problems+with+Python;Always+learning%2C+always+shipping" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -19,26 +19,26 @@
 
 ---
 
-## 🧠 About Me
+## About Me
 
 ```javascript
 const kieuphat = {
-  role:       "Fullstack Web Developer",
+  role:       "Fullstack AI Engineer",
   university: "University of Information Technology – VNU-HCM",
-  gpa:        "7.96 / 10.0",
+  gpa:        "3.5 / 4.0",
   interests:  ["System Architecture", "Competitive Programming", "Web3", "Performance Optimization"],
-  funFact:    "I used to have a glorious era in competitive programming. 😎"
+  funFact:    "I used to have a glorious era in competitive programming."
 };
 ```
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Languages & Frameworks
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
@@ -65,17 +65,17 @@ const kieuphat = {
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 📝 InkSphere — Full-Stack Blog & Social Platform
+### InkSphere — Full-Stack Blog & Social Platform
 > *A modern social blogging platform with real-time communication.*
 
 A full-stack social blogging platform built with a **Turborepo** architecture, featuring blogging, messaging, and video calling.
 
-- 🚀 Built with **Next.js 16**, **NestJS 11**, **Apollo GraphQL**, **Prisma**, and **PostgreSQL**
-- 👥 Implemented posts, comments, likes, tags, friend connections, JWT authentication, and Google OAuth 2.0
-- 💬 Developed a real-time **Socket.IO** chat system with direct/group messaging, read receipts, cursor pagination, token-bucket rate limiting, and a concurrency-controlled message queue
-- 📹 Integrated **WebRTC** video calling using a Socket.IO signaling server with Metered TURN for NAT traversal
+- Built with **Next.js 16**, **NestJS 11**, **Apollo GraphQL**, **Prisma**, and **PostgreSQL**
+- Implemented posts, comments, likes, tags, friend connections, JWT authentication, and Google OAuth 2.0
+- Developed a real-time **Socket.IO** chat system with direct/group messaging, read receipts, cursor pagination, token-bucket rate limiting, and a concurrency-controlled message queue
+- Integrated **WebRTC** video calling using a Socket.IO signaling server with Metered TURN for NAT traversal
 
 `Next.js` `NestJS` `GraphQL` `Socket.IO` `WebRTC` `Prisma` `PostgreSQL` `JWT`
 
@@ -85,16 +85,16 @@ A full-stack social blogging platform built with a **Turborepo** architecture, f
 
 ---
 
-### ⛓️ EventFund — Web3 Ticket Platform
+### EventFund — Web3 Ticket Platform
 > *Crowdfunding meets NFT ticketing on the blockchain.*
 
 A full-stack Web3 crowdfunding and NFT-ticketing platform deployed on the **Sepolia testnet**.
 
-- 🔗 Built smart contracts for automated on-chain revenue distribution and refunds
-- ⚡ Engineered a blockchain indexing pipeline syncing event logs into MongoDB
-- 🛡️ Used **transaction hashes as idempotency keys** to prevent duplicate processing of blockchain events
-- 💳 Integrated **VNPay** for VND-to-ETH deposits
-- 🎟️ Implemented QR check-in with on-chain/off-chain NFT ownership verification
+- Built smart contracts for automated on-chain revenue distribution and refunds
+- Engineered a blockchain indexing pipeline syncing event logs into MongoDB
+- Used **transaction hashes as idempotency keys** to prevent duplicate processing of blockchain events
+- Integrated **VNPay** for VND-to-ETH deposits
+- Implemented QR check-in with on-chain/off-chain NFT ownership verification
 
 `Node.js` `Express` `React` `Vite` `Solidity` `Hardhat` `MongoDB` `Ethers.js` `Web3Auth`
 
@@ -104,15 +104,15 @@ A full-stack Web3 crowdfunding and NFT-ticketing platform deployed on the **Sepo
 
 ---
 
-### 🤖 Helpdesk RAG Sync
+### Helpdesk RAG Sync
 > *Automated knowledge synchronization for AI customer support.*
 
 A production-style RAG pipeline that keeps an OpenAI Vector Store synchronized with Zendesk documentation.
 
-- 📚 Scraped Zendesk Help Center articles and converted HTML into clean Markdown
-- 🧠 Synced documentation into an **OpenAI Vector Store** for AI-powered customer support
-- 🔄 Implemented delta synchronization using **SHA-256 content hashes**, uploading only changed articles while removing obsolete ones
-- ☁️ Containerized with Docker and deployed as a scheduled **Google Cloud Run Job** with automatic retry and rate-limit handling
+- Scraped Zendesk Help Center articles and converted HTML into clean Markdown
+- Synced documentation into an **OpenAI Vector Store** for AI-powered customer support
+- Implemented delta synchronization using **SHA-256 content hashes**, uploading only changed articles while removing obsolete ones
+- Containerized with Docker and deployed as a scheduled **Google Cloud Run Job** with automatic retry and rate-limit handling
 
 `Python` `OpenAI Vector Store` `Zendesk API` `Docker` `Google Cloud Run` `Cloud Scheduler`
 
@@ -121,36 +121,40 @@ A production-style RAG pipeline that keeps an OpenAI Vector Store synchronized w
 
 ---
 
-## 💼 Experience
+## Experience
+
+**Fullstack AI Engineer** @ [Ecolar](https://ecolar.vn) *(07/2026 – Present)*
+
+- Building fullstack features with an AI-integration focus across the product
 
 **Fullstack Developer Intern** @ [Designveloper](https://www.designveloper.com) *(09/2025 – 11/2025)*
 
-- 🖥️ **Devices Management System** — Frontend features & UI components with RemixJS, Prisma, PostgreSQL; RBAC + JWT auth
-- 👥 **HRMapp** — UI/UX upgrade and bug fixes using SvelteKit and GraphQL
-- ⚙️ Performance optimization in an **Agile/Scrum** environment via GitLab
+- **Devices Management System** — Frontend features & UI components with RemixJS, Prisma, PostgreSQL; RBAC + JWT auth
+- **HRMapp** — UI/UX upgrade and bug fixes using SvelteKit and GraphQL
+- Performance optimization in an **Agile/Scrum** environment via GitLab
 
 ---
 
-## 🏆 Awards & Recognition
+## Awards & Recognition
 
 | 🥇 | First Prize — **FPT Hackathon 2025** |
 |---|---|
 | 🥈 | Second Place — **WeCode Challenge 2024** |
-| 🎖️ | Participant — **Vietnam National Olympiad of Informatics (VOI) 2023** |
+| | Participant — **Vietnam National Olympiad of Informatics (VOI) 2023** |
 | 🥈 | Second Prize — **Provincial Olympiad of Informatics 2023** |
 | 🥉 | Third Prize — **Provincial Olympiad of Informatics 2022** |
-| 🏅 | Encouragement Prize — **3rd Central Highlands Olympiad 2022** |
+| | Encouragement Prize — **3rd Central Highlands Olympiad 2022** |
 
 ---
 
-## 📜 Certifications
+## Certifications
 
-- 🌐 **TOEIC 2024** — Listening & Reading: **720**
-- 🗣️ **TOEIC 2024** — Speaking & Writing: **250**
+- **TOEIC 2024** — Listening & Reading: **720**
+- **TOEIC 2024** — Speaking & Writing: **250**
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
