@@ -25,7 +25,7 @@
 const kieuphat = {
   role:       "Fullstack Web Developer",
   university: "University of Information Technology – VNU-HCM",
-  gpa:        "7.96 / 10.0",
+  gpa:        "3.5 / 4.0",
   interests:  ["System Architecture", "Competitive Programming", "Web3", "Performance Optimization"],
   funFact:    "I used to have a glorious era in competitive programming. 😎"
 };
