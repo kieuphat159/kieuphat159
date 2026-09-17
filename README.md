@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Animated SVG header banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=180&section=header&text=Kieu%20Nguyen%20Thanh%20Phat&fontSize=38&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=Web%20Developer%20%E2%80%A2%20Web3%20%E2%80%A2%20Competitive%20Programmer&descAlignY=58&descSize=15" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=180&section=header&text=Kieu%20Nguyen%20Thanh%20Phat&fontSize=38&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20AI%20Engineer%20%E2%80%A2%20RAG%20Systems%20%E2%80%A2%20Competitive%20Programmer&descAlignY=58&descSize=15" width="100%"/>
 
 <!-- Typing animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=800&color=00FF96&center=true&vCenter=true&multiline=false&width=600&lines=Building+full-stack+systems+%F0%9F%9A%80;Crafting+Web3+experiences+%E2%9B%93;Solving+problems+with+C%2B%2B+%F0%9F%A7%A9;Always+learning%2C+always+shipping+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=800&color=00FF96&center=true&vCenter=true&multiline=false&width=600&lines=Building+full-stack+systems+%F0%9F%9A%80;Shipping+RAG+pipelines+%F0%9F%A4%96;Crafting+Web3+experiences+%E2%9B%93;Solving+problems+with+C%2B%2B+%F0%9F%A7%A9;Always+learning%2C+always+shipping+%E2%9C%A8" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -23,11 +23,12 @@
 
 ```javascript
 const kieuphat = {
-  role:       "Fullstack Web Developer",
-  university: "University of Information Technology – VNU-HCM",
-  gpa:        "3.5 / 4.0",
-  interests:  ["System Architecture", "Competitive Programming", "Web3", "Performance Optimization"],
-  funFact:    "I used to have a glorious era in competitive programming. 😎"
+  role:        "Full-Stack AI Engineer",
+  university:  "University of Information Technology – VNU-HCM",
+  gpa:         "3.5 / 4.0",
+  graduation:  "Expected December 2026",
+  interests:   ["RAG & AI Agents", "System Architecture", "Competitive Programming", "Web3"],
+  funFact:     "I used to have a glorious era in competitive programming. 😎"
 };
 ```
 
@@ -36,32 +37,59 @@ const kieuphat = {
 ## 🛠️ Tech Stack
 
 ### Languages & Frameworks
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?style=flat-square&logo=svelte&logoColor=white)
+![Remix](https://img.shields.io/badge/RemixJS-000000?style=flat-square&logo=remix&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+
+### AI / RAG
+![OpenAI Vector Store](https://img.shields.io/badge/OpenAI_Vector_Store-412991?style=flat-square&logo=openai&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)
+![RAG Pipelines](https://img.shields.io/badge/RAG_Pipelines-4B8BBE?style=flat-square)
+![MCP Servers](https://img.shields.io/badge/MCP_Servers-111111?style=flat-square)
+![ONNX](https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-10A37F?style=flat-square)
 
 ### Databases & ORMs
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+
+### Testing
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
 ### Tools & DevOps
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Copilot](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github-copilot&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![WSL2](https://img.shields.io/badge/WSL2_Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+
+### AI-Assisted Dev Tools
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square)
+![Cursor](https://img.shields.io/badge/Cursor-111111?style=flat-square)
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-181717?style=flat-square&logo=github-copilot&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-412991?style=flat-square)
+![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=flat-square)
 
 ---
 
@@ -76,8 +104,9 @@ A full-stack social blogging platform built with a **Turborepo** architecture, f
 - 👥 Implemented posts, comments, likes, tags, friend connections, JWT authentication, and Google OAuth 2.0
 - 💬 Developed a real-time **Socket.IO** chat system with direct/group messaging, read receipts, cursor pagination, token-bucket rate limiting, and a concurrency-controlled message queue
 - 📹 Integrated **WebRTC** video calling using a Socket.IO signaling server with Metered TURN for NAT traversal
+- ⚡ Cut home-feed API latency by **75–80% (12ms → 2–3ms)** using Redis cache versioning and optimized PostgreSQL indexes, improving query performance by up to **59.4%**
 
-`Next.js` `NestJS` `GraphQL` `Socket.IO` `WebRTC` `Prisma` `PostgreSQL` `JWT`
+`Next.js` `NestJS` `GraphQL` `Socket.IO` `WebRTC` `Prisma` `PostgreSQL` `Redis` `JWT`
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-FF6B6B?style=flat-square&logo=vercel&logoColor=white)](https://inksphere.me)
 [![Demo Video](https://img.shields.io/badge/Demo_Video-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1XBD3UXOtOmT3rGAPIORI-fSw5qjt62DG/view?usp=drive_link)
@@ -123,6 +152,12 @@ A production-style RAG pipeline that keeps an OpenAI Vector Store synchronized w
 
 ## 💼 Experience
 
+**Full-Stack Engineer, AI Integration** @ Ecolar *(07/2026 – Present)*
+
+- 🤖 **Multi-Channel Sales Assistant** — Built a sales assistant for Zalo and Messenger on the Hermes Agent framework, extending the Zalo adapter and shipping a new Messenger adapter on a shared business-logic layer
+- 📚 **Vietnamese RAG Knowledge Base** — Built an MCP server with 2,800+ embedded chunks using CPU-based ONNX embeddings on a 2GB VPS, with confidence-based human handoff for low-confidence answers
+- 🛒 **Ops Dashboard & Integrations** — Integrated Haravan for direct chat ordering and built an operations dashboard for session monitoring, bot takeover, and pricing controls on a Python/FastAPI business-rule layer; measured prompt changes using transcript-derived metrics
+
 **Fullstack Developer Intern** @ [Designveloper](https://www.designveloper.com) *(09/2025 – 11/2025)*
 
 - 🖥️ **Devices Management System** — Frontend features & UI components with RemixJS, Prisma, PostgreSQL; RBAC + JWT auth
@@ -136,10 +171,9 @@ A production-style RAG pipeline that keeps an OpenAI Vector Store synchronized w
 | 🥇 | First Prize — **FPT Hackathon 2025** |
 |---|---|
 | 🥈 | Second Place — **WeCode Challenge 2024** |
-| 🎖️ | Participant — **Vietnam National Olympiad of Informatics (VOI) 2023** |
 | 🥈 | Second Prize — **Provincial Olympiad of Informatics 2023** |
+| 🎖️ | Participant — **Vietnam National Olympiad of Informatics (VOI) 2023** |
 | 🥉 | Third Prize — **Provincial Olympiad of Informatics 2022** |
-| 🏅 | Encouragement Prize — **3rd Central Highlands Olympiad 2022** |
 
 ---
 
